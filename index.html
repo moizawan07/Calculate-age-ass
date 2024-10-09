@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate age</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--  <div class="con"> 
+  <input type="date" id="user"> 
+   <input type="text" placeholder="Enter a Date" id="Date">
+   <input type="text" placeholder="Enter a Month" id="Month">
+   <input type="text" placeholder="Enter a Year" id="Year">
+  <button onclick="userData()">Submit</button>
+</div>
+
+   <div class="print-main">
+      <div id="YearssP">Years</div>
+      <div id="MonthssP">Months</div>
+      <div id="DaysssP">Days</div>
+   </div> -->
+
+   <div class="container">
+
+    <!-- All Input -->
+
+    <div class="block">
+        <input type="text" name="date" id="date" placeholder="Entera date" required="required" minlength="1" maxlength="2">
+    </div>
+    <div class="block">
+        <input type="text" name="month" id="month" placeholder="Enter month no:" required="required" minlength="1" maxlength="12">
+    </div>
+    <div class="block">
+        <input type="text" name="year" id="year" placeholder="Enter your DOB" required="required" minlength="4" maxlength="4">
+    </div>
+    
+    <!-- Submit Button -->
+    <div class="submit-button">
+        <input type="button" name="submit" value="Submit" onclick="age()">
+    </div>
+    <div id="age">
+    </div>
+</div>
+
+
+   <script src="app.js"></script>
+</body>
+</html>
